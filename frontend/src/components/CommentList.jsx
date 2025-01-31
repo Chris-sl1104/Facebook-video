@@ -182,7 +182,7 @@ const CommentItem = ({ comment }) => {
                         secondary={
                             <>
                                 <Typography variant="body2" color="text.primary">
-                                    {comment.message || "(No text provided)"}
+                                    {comment.message || ""}
                                 </Typography>
                                 <Typography variant="caption" color="text.secondary">
                                     {new Date(comment.created_time).toLocaleString()}
